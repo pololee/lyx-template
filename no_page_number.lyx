@@ -1,0 +1,83 @@
+#LyX 1.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 221
+\textclass article
+\language english
+\inputencoding auto
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 0
+\use_amsmath 0
+\use_natbib 0
+\use_numerical_citations 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+
+\layout Title
+
+The title\SpecialChar \ldots{}
+
+\layout Author
+
+Christian Ridderström
+\layout Standard
+
+
+\begin_inset ERT
+status Open
+
+\layout Standard
+
+\backslash 
+thispagestyle{empty}
+\end_inset 
+
+
+\layout Section
+
+Introduction
+\layout Standard
+
+This document illustrates how you can use 
+\emph on 
+ERT
+\emph default 
+ to get rid of page number for the first page.
+ Without the command 
+\series bold 
+
+\backslash 
+thispagestyle{empty}
+\series default 
+ in an ERT-inset
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+ERT stands for Evil-Red-Text.
+\end_inset 
+
+ just after the title, the first page would automatically get a page number.
+ A few comments:
+\layout Itemize
+
+It is perfectly safe to put the ERT-inset in a paragraph by itself, the
+ paragraph will not appear in the output.
+\layout Itemize
+
+The ERT-inset may be placed in different positions, some work and some do
+ not work.
+ If you encounter a problem, try moving the inset to a different location.
+\the_end
